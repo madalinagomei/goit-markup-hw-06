@@ -518,7 +518,7 @@ margin-right: 40px;
     color: var(--background-color);
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     max-width: 264px;
 }
 
@@ -814,7 +814,7 @@ margin-right: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
-    padding: 74px 24px 24px 24px;
+    padding: 72px 24px 24px 24px 24px;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 576px;
@@ -866,7 +866,7 @@ margin-right: 40px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--main-title-color);
+    color: var(--title-color);
     margin-bottom: 16px;
 }
 
@@ -911,7 +911,7 @@ margin-right: 40px;
 }
 
 .modal-input:focus+.modal-icon {
-    fill: var(--main-colorr);
+    fill: var(--main-color);
 }
 
 .modal-icon {
