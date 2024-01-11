@@ -591,6 +591,9 @@ margin-right: 40px;
 }
 
 .footer-subscribe-title {
+    font-weight: 500;
+    line-height: 1.5;
+    line-height: 1.5;
     margin-bottom: 16px;
     color: var(--white)
 }
