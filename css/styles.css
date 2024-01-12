@@ -643,6 +643,7 @@ letter-spacing: 0.02em;
 
 .footer-subscribe-icon {
     margin-left: 16px;
+    color: #ffffff;
 }
 
 .footer-label {
@@ -918,6 +919,8 @@ letter-spacing: 0.02em;
     fill: var(--main-color);
 }
 
+
+
 .modal-icon {
     position: absolute;
     left: 16px;
@@ -965,9 +968,12 @@ letter-spacing: 0.02em;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--gray);
-    display: block;
+    display: inline-flex ;
+    gap: 5px;
+    /* align-items: center;
+        justify-content: center;
+ */
 }
-
 .check-empty {
     width: 16px;
     height: 16px;
