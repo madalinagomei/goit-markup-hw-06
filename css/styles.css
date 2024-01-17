@@ -822,11 +822,11 @@ letter-spacing: 0.02em;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden {
+/* .is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-}
+} */
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
@@ -964,15 +964,12 @@ letter-spacing: 0.02em;
     color: var(--title-color2);
 }
 
-.input-check:checked + .input-check-text > .check-empty {
+.input-check:checked + .input-check-text > .input-check-icon{
     background-color: var(--header-menu-color);
     border: none;
     fill: var(--background-color);
 }
 
-.input-check:focus+.input-check-text>.check-empty {
-    border-color: var(--header-menu-color);
-}
 
 .input-check-text {
     font-size: 12px;
@@ -983,7 +980,7 @@ letter-spacing: 0.02em;
     gap: 5px;
 
 }
-.check-empty {
+.input-check-icon {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);

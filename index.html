@@ -485,15 +485,18 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal is-hidden">
         <button class="modal-close-btn" data-modal-close type="button">
           <svg width="8" height="8">
             <use href="./images/icons.svg#close-black"></use>
           </svg>
         </button>
-        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <!-- Modal Form -->
         <form class="modal-form">
+          <p class="modal-title">
+            Leave your contacts and we will call you back
+          </p>
           <div class="modal-field">
             <label for="user-name" class="modal-label">Name</label>
             <div class="modal-input-wrap">
@@ -549,17 +552,8 @@
           </div>
 
           <div class="modal-field check-field">
-            <input
-              class="input-check"
-              id="user-privacy"
-              type="checkbox"
-              value="true"
-              name="user-privacy"
-            />
-            <!-- <input
-              class="input-check visually-hidden" -->
             <label for="user-privacy" class="input-check-text">
-              <span class="input-check-icon check-empty" width="10" height="8">
+              <span class="input-check-icon" width="10" height="8">
                 <input type="checkbox" id="scales" name="scales" />
                 <use href="./images/icons.svg#Checkbox"></use>
               </span>
